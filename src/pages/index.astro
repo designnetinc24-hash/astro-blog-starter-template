@@ -5,46 +5,84 @@ import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design inc inc — Our Mission</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f5f7fa;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #22223b;
+      color: #f2e9e4;
+      padding: 32px 0 24px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.7rem;
+      letter-spacing: 2px;
+    }
+    main {
+      max-width: 650px;
+      margin: 48px auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 24px rgba(34,34,59,0.08);
+      padding: 40px 32px;
+    }
+    h2 {
+      color: #22223b;
+      margin-top: 0;
+      font-size: 1.8rem;
+    }
+    p {
+      font-size: 1.15rem;
+      line-height: 1.7;
+    }
+    .mission {
+      background: #4a4e69;
+      color: #f2e9e4;
+      border-radius: 6px;
+      padding: 24px;
+      margin: 28px 0;
+      font-size: 1.25rem;
+      box-shadow: 0 2px 8px rgba(34,34,59,0.04);
+    }
+    footer {
+      text-align: center;
+      color: #8a8a8a;
+      padding: 24px 0 18px 0;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Design inc inc</h1>
+    <div>Where Creativity Meets Technology</div>
+  </header>
+  <main>
+    <h2>Our Mission</h2>
+    <div class="mission">
+      To empower businesses and individuals through innovative design and technology, creating digital experiences that inspire, engage, and drive meaningful progress.
+    </div>
+    <p>
+      At Design inc inc, we believe in the power of creativity fused with cutting-edge technology. Our mission is to help our clients realize their visions by delivering solutions that are not only aesthetically stunning but also intuitive and impactful.
+    </p>
+    <p>
+      From web development to branding, we are passionate about solving real-world challenges through thoughtful design, robust engineering, and a relentless pursuit of excellence. We are committed to building a future where design makes a difference—everywhere.
+    </p>
+  </main>
+  <footer>
+    &copy; 2025 Design Net inc. All rights reserved.
+  </footer>
+</body>
 </html>

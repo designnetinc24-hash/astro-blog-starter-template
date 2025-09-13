@@ -1,0 +1,8 @@
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #f5f7fa; color: #222; margin: 0; padding: 0; }
+header { background: #22223b; color: #f2e9e4; padding: 32px 0 24px 0; text-align: center; }
+header h1 { margin: 0; font-size: 2.7rem; letter-spacing: 2px; }
+main { max-width: 650px; margin: 48px auto; background: #fff; border-radius: 10px; box-shadow: 0 4px 24px rgba(34,34,59,0.08); padding: 40px 32px; }
+h2 { color: #22223b; margin-top: 0; font-size: 1.8rem; }
+p { font-size: 1.15rem; line-height: 1.7; }
+.mission { background: #4a4e69; color: #f2e9e4; border-radius: 6px; padding: 24px; margin: 28px 0; font-size: 1.25rem; box-shadow: 0 2px 8px rgba(34,34,59,0.04); }
+footer { text-align: center; color: #8a8a8a; padding: 24px 0 18px 0; font-size: 1rem; }

@@ -1,8 +1,100 @@
----
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Design Net Inc</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(120deg, #082032, #334756 70%);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: rgba(0,0,0,0.7);
+      padding: 2rem 0;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.25rem;
+      color: #ECDBBA;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .welcome-box {
+      background: rgba(51, 71, 86, 0.85);
+      border-radius: 16px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+      max-width: 500px;
+      padding: 2rem;
+      text-align: center;
+    }
+    .welcome-box h2 {
+      margin-top: 0;
+      color: #F05454;
+      font-size: 2rem;
+    }
+    .welcome-box p {
+      color: #ECDBBA;
+      font-size: 1.1rem;
+      margin: 1.5rem 0 0;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background: rgba(0,0,0,0.6);
+      color: #bbb;
+      font-size: 1rem;
+      letter-spacing: 1px;
+    }
+    @media (max-width: 600px) {
+      .welcome-box {
+        padding: 1rem;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+      .welcome-box h2 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <!-- other content -->
+  <header>
+    <h1>Design Net Inc</h1>
+    <p>Innovating Digital Experiences</p>
+  </header>
+  <main>
+    <div class="welcome-box">
+      <h2>Welcome!</h2>
+      <p>
+        We are <strong>Design Net Inc</strong>, a team passionate about crafting seamless digital solutions.<br><br>
+        Explore our services, portfolio, and more as we bring your ideas to life with creativity and technology.<br>
+        <br>
+        <a href="mailto:contact@designnetinc.com" style="color: #F05454; text-decoration: underline;">Contact Us</a>
+      </p>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 Design Net Inc &mdash; All rights reserved.
+  </footer>
 </body>
----
+</html>
